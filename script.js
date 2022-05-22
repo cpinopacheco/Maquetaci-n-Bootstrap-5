@@ -5,4 +5,4 @@ const typewriter = new Typewriter(app, {
   delay: 75,
 });
 
-typewriter.typeString("La capital del sol").pauseFor(200).start();
+typewriter.typeString("Sector suroriente de Santiago").pauseFor(200).start();
