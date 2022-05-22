@@ -30,19 +30,9 @@
   width: 75%;
 }
 
-/*  section Equipo La florida */
-#numeros-local {
-  padding: 0 20px 0 0;
-  height: 48px;
-}
-
 /* seleccione todos los div dentro del numero-local menos el ultimo hijo */
 #numeros-local div:not(:last-child) {
   border-right: 2px solid #3f3f3f;
-}
-
-#numeros-local div:not(:first-child) {
-  padding-left: 15px;
 }
 
 #numeros-local p {
@@ -63,7 +53,6 @@
   background-color: #f3f3f3;
   margin-top: 100px;
   margin-bottom: 200px;
-  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -119,7 +108,7 @@ footer p {
 
 @media (min-width: 996px) {
   #local {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   #contenedor-formulario {
@@ -129,7 +118,7 @@ footer p {
 
 @media (min-width: 768px) {
   #contenedor-formulario {
-    top: 10%;
+    top: 20%;
   }
 }
 
@@ -162,5 +151,6 @@ footer p {
 @media (min-width: 1200px) {
   #local {
     padding-bottom: 0;
+    margin-bottom: 20px;
   }
 }
